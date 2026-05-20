@@ -195,7 +195,7 @@ export const games: Game[] = [
   id: 'game-24',
   title: 'Wordle 1v1',
   description: 'Wordle but multiplayer',
-  url: 'wip',
+  url: 'https://script.google.com/macros/s/AKfycbxgCfdpeZZi6jP7SOZcS3ZtBDRRRNEQX1ENPColTVrm2VHBcNBpKeOs87ddHC0xwr7_-A/exec',
   thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzXo17pL3S9PjcsR4V-ZPUr8nuQ622Lq0lhA&s',
   category: 'Multiplayer'
   }
