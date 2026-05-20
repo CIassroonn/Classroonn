@@ -91,7 +91,7 @@ export const games: Game[] = [
     id: 'game-11',
     title: 'Basket Random',
     description: '',
-    url: 'https://mc0825.github.io/g5/class-436',
+    url: 'https://mc0825.github.io/g26/class-436/',
     thumbnail: 'https://images.sftcdn.net/images/t_app-cover-s-16-9,f_auto/p/c980f465-a1b3-49d0-a53a-bca3d956be49/2213180539/basket-random-unblocked-screenshot',
     category: 'Platformer'
   },
@@ -198,5 +198,12 @@ export const games: Game[] = [
   url: 'https://script.google.com/macros/s/AKfycbxgCfdpeZZi6jP7SOZcS3ZtBDRRRNEQX1ENPColTVrm2VHBcNBpKeOs87ddHC0xwr7_-A/exec',
   thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzXo17pL3S9PjcsR4V-ZPUr8nuQ622Lq0lhA&s',
   category: 'Multiplayer'
+  },
+  {
+  id: 'game-25',
+  title: 'Mafia',
+  description: 'Game where an informed minority (the Mafia) against an uninformed majority (the Villagers).',
+  url: 'https://script.google.com/macros/s/AKfycbw08ZWhNkdIBO4iuIFqruvivkuFQztZo6lLBhPl4nxOeKS-G0FVkHDAasoNyPr3cBEP/exec',
+  category: 'Party'
   }
 ];
