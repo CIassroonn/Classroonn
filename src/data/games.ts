@@ -147,7 +147,7 @@ export const games: Game[] = [
     id: 'game-18',
     title: 'Among Us',
     description: '',
-    url: 'https://script.google.com/a/macros/jcpsnj.org/s/AKfycbxCOVcjQgZ2bFEvGF99CYBrolFtfUQeF4Xf8Rxgh5Om8fEaHmpaajp5WyCarEpbbew/exec',
+    url: 'https://script.google.com/macros/s/AKfycbwy6FKekGqXvceuJolq6TOFPdtQCdOaZe0H_fUB8DiaudLrmTG23KRDnSFcXShUR0FS/exec',
     thumbnail: 'https://i.ytimg.com/vi/0YKjFoGxbec/maxresdefault.jpg',
     category: 'Party'
   },
