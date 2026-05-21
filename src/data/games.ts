@@ -207,7 +207,7 @@ export const games: Game[] = [
   category: 'Party'
   },
   {
-  id: 'game-22',
+  id: 'game-26',
   title: 'Amongus',
   description: 'Play chess with a friend online using a room code. It might be a little slow at times (or bring your piece back), but it will be fixed soon. ',
   url: '/amoungus.html',  // or wherever you put it
