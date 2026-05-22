@@ -17,19 +17,19 @@ export const games: Game[] = [
   },
   {
     id: 'game-2',
-    title: 'Tag',
-    description: 'Fun to play with your friends.',
-    url: 'https://mc0825.github.io/g69/class-633/',
-    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnv5dEDOurGtf2ftRLZDASTNMHsTCh8eDhg&s',
-    category: 'Multiplayer'
+    title: 'Bitlife',
+    description: 'Most fun to experiment by yourself.',
+    url: 'https://ubg365.github.io/bitlife-life-simulator/play.html',
+    thumbnail: 'https://i.ytimg.com/vi/WUTrv--kZtI/maxresdefault.jpg',
+    category: 'Single-Player'
   },
   {
     id: 'game-3',
-    title: 'Getaway Shootout',
-    description: 'Fun to play with your friend.',
-    url: 'https://mc0825.github.io/g9/class-479/',
-    thumbnail: 'https://getawayshootoutonline.github.io/images/getaway-shootout.png',
-    category: 'Multiplayer'
+    title: 'OvO',
+    description: 'Fun to play by yourself.',
+    url: 'https://mc0825.github.io/g5/class-456',
+    thumbnail: 'https://www.coolmathgames.com/sites/default/files/styles/blog_node_image/public/2021-03/Screen%20Shot%202021-03-19%20at%202.45.51%20PM.png.webp?itok=v01_UVn5',
+    category: 'Platformer'
   },
   {
     id: 'game-4',
@@ -57,11 +57,11 @@ export const games: Game[] = [
   },
   {
     id: 'game-7',
-    title: 'Bitlife',
-    description: 'Most fun to experiment by yourself.',
-    url: 'https://ubg365.github.io/bitlife-life-simulator/play.html',
-    thumbnail: 'https://i.ytimg.com/vi/WUTrv--kZtI/maxresdefault.jpg',
-    category: 'Single-Player'
+    title: 'Getaway Shootout',
+    description: 'Fun to play with your friend.',
+    url: 'https://mc0825.github.io/g9/class-479/',
+    thumbnail: 'https://getawayshootoutonline.github.io/images/getaway-shootout.png',
+    category: 'Multiplayer'
   },
   {
     id: 'game-8',
@@ -81,11 +81,11 @@ export const games: Game[] = [
   },
   {
     id: 'game-10',
-    title: 'OvO',
-    description: 'Fun to play by yourself.',
-    url: 'https://mc0825.github.io/g5/class-456',
-    thumbnail: 'https://www.coolmathgames.com/sites/default/files/styles/blog_node_image/public/2021-03/Screen%20Shot%202021-03-19%20at%202.45.51%20PM.png.webp?itok=v01_UVn5',
-    category: 'Platformer'
+    title: 'Tag',
+    description: 'Fun to play with your friends.',
+    url: 'https://mc0825.github.io/g69/class-633/',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnv5dEDOurGtf2ftRLZDASTNMHsTCh8eDhg&s',
+    category: 'Multiplayer'
   },
   {
     id: 'game-11',
