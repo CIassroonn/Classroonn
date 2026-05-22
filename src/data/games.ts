@@ -246,5 +246,13 @@ export const games: Game[] = [
     url: 'https://skribbl.io/',
     thumbnail: 'https://static.wikitide.net/partycrasherswiki/1/14/IMPROVED-Skribblio.png',
     category: 'Multiplayer'
+  },
+  {
+    id: 'game-31',
+    title: 'Proxy',
+    description: 'WIP MAY NOT WOKR',
+    url: 'https://script.google.com/macros/s/AKfycbwF9qXs36XU41Y-Rwqxj3ZYlS6mmR3rbxZ3Durx7-tKLyfeaQM_-t7tGMaUaCpxuQZV2A/exec',
+    thumbnail: 'https://static.wikitide.net/partycrasherswiki/1/14/IMPROVED-Skribblio.png',
+    category: 'Solo'
   }
 ];
