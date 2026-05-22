@@ -6,31 +6,30 @@ export interface Game {
   thumbnail: string;
   category: string;
 }
-//alive players can see ghosts, they can see ghost messages, and ghosts have to be able to go through walls and see players behind walls, and emergency cooldown plus limit
 export const games: Game[] = [
   {
     id: 'game-1',
-    title: 'Rocket goal',
+    title: 'Chat',
     description: 'Fun to play with your friends.',
-    url: 'https://script.google.com/macros/s/AKfycbybZkVPGyvHUOZbwrJSn5fRQIFcGpoIEhp0r-yq2GWRtE_1G7YzP4t8kPZRfp6tutUN/exec',
-    thumbnail: 'https://play-lh.googleusercontent.com/VFwCWELna7i6okl299W0e1H-0moEvVfT9N2M9moaikhCTcEDjUg3hE1mkSlm3ZezfLPi4ppMcStIhjWUustesg=w526-h296-rw',
-    category: 'Puzzle'
+    url: 'https://tharaniidaran-t.github.io/chat/',
+    thumbnail: 'https://images.ctfassets.net/mrsnpomeucef/3BUijrF6jnsDbghL6sCF1/9c15892b4a259e619acd5aa7a4c3f698/Untitled_design__47_.png',
+    category: 'Social'
   },
   {
     id: 'game-2',
-    title: 'Tag',
-    description: 'Fun to play with your friends.',
-    url: 'https://mc0825.github.io/g69/class-633/',
-    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnv5dEDOurGtf2ftRLZDASTNMHsTCh8eDhg&s',
-    category: 'Multiplayer'
+    title: 'Bitlife',
+    description: 'Most fun to experiment by yourself.',
+    url: 'https://ubg365.github.io/bitlife-life-simulator/play.html',
+    thumbnail: 'https://i.ytimg.com/vi/WUTrv--kZtI/maxresdefault.jpg',
+    category: 'Single-Player'
   },
   {
     id: 'game-3',
-    title: 'Getaway Shootout',
-    description: 'Fun to play with your friend.',
-    url: 'https://mc0825.github.io/g9/class-479/',
-    thumbnail: 'https://getawayshootoutonline.github.io/images/getaway-shootout.png',
-    category: 'Multiplayer'
+    title: 'OvO',
+    description: 'Fun to play by yourself.',
+    url: 'https://mc0825.github.io/g5/class-456',
+    thumbnail: 'https://www.coolmathgames.com/sites/default/files/styles/blog_node_image/public/2021-03/Screen%20Shot%202021-03-19%20at%202.45.51%20PM.png.webp?itok=v01_UVn5',
+    category: 'Platformer'
   },
   {
     id: 'game-4',
@@ -42,35 +41,35 @@ export const games: Game[] = [
   },
   {
     id: 'game-5',
-    title: 'Wrassling',
-    description: 'Fun to play with your friends.',
-    url: 'https://mc0825.github.io/g69/class-651',
-    thumbnail: 'https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/f1b3c828-7af9-4e13-9f5c-b2e88f335bdf/wrassling.png',
-    category: 'Multiplayer'
+    title: 'Slope',
+    description: 'This is just for the girls ig',
+    url: 'https://ubg365.github.io/slope/play.html',
+    thumbnail: 'https://i.ytimg.com/vi/jvjZ4rnERmM/maxresdefault.jpg',
+    category: 'Solo'
   },
   {
     id: 'game-6',
-    title: 'Soccer Random',
-    description: 'Fun to play with your friends.',
-    url: 'https://mc0825.github.io/g26/class-511',
-    thumbnail: 'https://play-lh.googleusercontent.com/G1PIlb6HWKSaDre0XpUcmKGps9T4iamsSlwrogB3EJzYv4bz0M2am4D17MtGzndaOOU=w240-h480-rw',
-    category: 'Fast Paced'
+    title: 'Epilepsy game',
+    description: 'This is just for the girls ig',
+    url: 'https://ubg365.github.io/death-run-3d/',
+    thumbnail: 'https://play-lh.googleusercontent.com/IeGUGo20PsUgjtAajcZWsz09ypyAIITXS8jDzzLAFdoR65Zy_3PVOP-ckq5b_A_vPzuV=w526-h296-rw',
+    category: 'Solo'
   },
   {
     id: 'game-7',
-    title: 'Bitlife',
-    description: 'Most fun to experiment by yourself.',
-    url: 'https://ubg365.github.io/bitlife-life-simulator/play.html',
-    thumbnail: 'https://i.ytimg.com/vi/WUTrv--kZtI/maxresdefault.jpg',
-    category: 'Single-Player'
+    title: '2048',
+    description: 'Girls.',
+    url: 'https://ubg365.github.io/2048/play.html',
+    thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/1280px-2048_logo.svg.png',
+    category: 'Solo'
   },
   {
     id: 'game-8',
-    title: 'Volley Random',
-    description: 'Fun to play with your friends.',
-    url: 'https://mc0825.github.io/g/class-811',
-    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE-WsAiFSXWoWlHvWGYm4xNQysU_kK39VvcRz54bY9a1mdBapeDJne6gevddjqVG_5qhvQZIfZx3POJnNa6sJ-fBbEVW-oUY7-Rv27LwQ&s=10',
-    category: 'Fast Paced'
+    title: 'Gemini',
+    description: 'Fixed. Do not abuse AI, at a certain point max messages will be reached.',
+    url: 'https://tharaniidaran-t.github.io/extrastuffforwebsite/',
+    thumbnail: 'data:image/png;base64,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',
+    category: 'AI'
   },
   {
     id: 'game-9',
@@ -82,17 +81,17 @@ export const games: Game[] = [
   },
   {
     id: 'game-10',
-    title: 'OvO',
-    description: 'Fun to play by yourself.',
-    url: 'https://mc0825.github.io/g5/class-456',
-    thumbnail: 'https://www.coolmathgames.com/sites/default/files/styles/blog_node_image/public/2021-03/Screen%20Shot%202021-03-19%20at%202.45.51%20PM.png.webp?itok=v01_UVn5',
-    category: 'Platformer'
+    title: 'Tag',
+    description: 'Fun to play with your friends.',
+    url: 'https://mc0825.github.io/g69/class-633/',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnv5dEDOurGtf2ftRLZDASTNMHsTCh8eDhg&s',
+    category: 'Multiplayer'
   },
   {
     id: 'game-11',
     title: 'Basket Random',
     description: '',
-    url: 'https://mc0825.github.io/g5/class-456',
+    url: 'https://mc0825.github.io/g26/class-436/',
     thumbnail: 'https://images.sftcdn.net/images/t_app-cover-s-16-9,f_auto/p/c980f465-a1b3-49d0-a53a-bca3d956be49/2213180539/basket-random-unblocked-screenshot',
     category: 'Platformer'
   },
@@ -138,17 +137,17 @@ export const games: Game[] = [
   },
   {
     id: 'game-17',
-    title: 'Homework Helper',
-    description: '',
-    url: 'https://genizymath.github.io/iframe/253-update.html',
-    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSegUUBOgagwjsPQMNPDAN_3iRVThIOm3EECQ&s',
-    category: 'AI'
+    title: 'Volley Random',
+    description: 'Fun to play with your friends.',
+    url: 'https://mc0825.github.io/g/class-811',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE-WsAiFSXWoWlHvWGYm4xNQysU_kK39VvcRz54bY9a1mdBapeDJne6gevddjqVG_5qhvQZIfZx3POJnNa6sJ-fBbEVW-oUY7-Rv27LwQ&s=10',
+    category: 'Fast Paced' 
   },
   {
     id: 'game-18',
     title: 'Among Us',
     description: '',
-    url: 'https://script.google.com/macros/s/AKfycbw0mXpD5irGNnKE6brrRG6IqtCBlMhjczxVMt0Jz69D3vngJ2DjxftVuuCuDR2TUlCZ/exec',
+    url: 'https://script.google.com/macros/s/AKfycbwdYUtgs7kZjgJ5OG0WpNqc84LYICfZo0ezR1WfAYdjwqfkasZmB0Ad4MPFNVBfyKH-/exec',
     thumbnail: 'https://i.ytimg.com/vi/0YKjFoGxbec/maxresdefault.jpg',
     category: 'Party'
   },
@@ -191,5 +190,61 @@ export const games: Game[] = [
   url: 'https://granddia2.github.io/old/yt.html',  // or wherever you put it
   thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_yL7AtgrIozF4QESx27DN6CDTvAuxtEfPPw&s',
   category: 'Solo'
+  },
+  {
+  id: 'game-24',
+  title: 'Wordle 1v1',
+  description: 'Wordle but multiplayer',
+  url: 'https://script.google.com/macros/s/AKfycbxgCfdpeZZi6jP7SOZcS3ZtBDRRRNEQX1ENPColTVrm2VHBcNBpKeOs87ddHC0xwr7_-A/exec',
+  thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzXo17pL3S9PjcsR4V-ZPUr8nuQ622Lq0lhA&s',
+  category: 'Multiplayer'
+  },
+  {
+  id: 'game-25',
+  title: 'Mafia',
+  description: 'Game where an informed minority (the Mafia) against an uninformed majority (the Villagers).',
+  url: 'https://script.google.com/macros/s/AKfycbxIJpXSuYYb5fem5sk7ihiqcfGBn3n_3AiqHzWyA5ivVxhI2-Zzk5kGmJM3ym5cLYmM/exec',
+  thumbnail: 'https://icebreakerideas.com/wp-content/uploads/2019/04/Mafia-Game-e1610793771411.jpg',
+  category: 'Party'
+  },
+  {
+  id: 'game-26',
+  title: 'Rocket goal',
+  description: 'Fun to play with your friends.',
+  url: 'https://script.google.com/macros/s/AKfycbybZkVPGyvHUOZbwrJSn5fRQIFcGpoIEhp0r-yq2GWRtE_1G7YzP4t8kPZRfp6tutUN/exec',
+  thumbnail: 'https://play-lh.googleusercontent.com/VFwCWELna7i6okl299W0e1H-0moEvVfT9N2M9moaikhCTcEDjUg3hE1mkSlm3ZezfLPi4ppMcStIhjWUustesg=w526-h296-rw',
+  category: 'Puzzle'
+  },
+  {
+  id: 'game-27',
+  title: 'Wrassling',
+  description: 'Fun to play with your friends.',
+  url: 'https://mc0825.github.io/g69/class-651',
+  thumbnail: 'https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/f1b3c828-7af9-4e13-9f5c-b2e88f335bdf/wrassling.png',
+  category: 'Multiplayer'
+  },
+  {
+    id: 'game-28',
+    title: 'Soccer Random',
+    description: 'Fun to play with your friends.',
+    url: 'https://mc0825.github.io/g26/class-511',
+    thumbnail: 'https://play-lh.googleusercontent.com/G1PIlb6HWKSaDre0XpUcmKGps9T4iamsSlwrogB3EJzYv4bz0M2am4D17MtGzndaOOU=w240-h480-rw',
+    category: 'Fast Paced'
+  },
+  {
+    id: 'game-29',
+    title: 'Getaway Shootout',
+    description: 'Fun to play with your friend.',
+    url: 'https://mc0825.github.io/g9/class-479/',
+    thumbnail: 'https://getawayshootoutonline.github.io/images/getaway-shootout.png',
+    category: 'Multiplayer'
+  },
+  {
+    id: 'game-30',
+    title: 'Skribbl.io',
+    description: 'Fun to play with your friend.',
+    url: 'https://skribbl.io/',
+    thumbnail: 'https://static.wikitide.net/partycrasherswiki/1/14/IMPROVED-Skribblio.png',
+    category: 'Multiplayer'
   }
 ];
