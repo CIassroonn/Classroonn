@@ -28,7 +28,7 @@ export const games: Game[] = [
     title: 'OvO',
     description: 'Fun to play by yourself.',
     url: 'https://mc0825.github.io/g5/class-456',
-    thumbnail: 'https://www.coolmathgames.com/sites/default/files/styles/blog_node_image/public/2021-03/Screen%20Shot%202021-03-19%20at%202.45.51%20PM.png.webp?itok=v01_UVn5',
+    thumbnail: 'https://play-lh.googleusercontent.com/v7KwGdPjJGjJjRXn46sck4DwDBdKSeRzGN44CjiXUtKV0jjOi51Bt4wcXud0m-SkXg',
     category: 'Platformer'
   },
   {
