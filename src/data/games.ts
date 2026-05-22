@@ -147,7 +147,7 @@ export const games: Game[] = [
     id: 'game-18',
     title: 'Among Us',
     description: '',
-    url: 'https://script.google.com/macros/s/AKfycbwy6FKekGqXvceuJolq6TOFPdtQCdOaZe0H_fUB8DiaudLrmTG23KRDnSFcXShUR0FS/exec',
+    url: 'https://script.google.com/macros/s/AKfycbwdYUtgs7kZjgJ5OG0WpNqc84LYICfZo0ezR1WfAYdjwqfkasZmB0Ad4MPFNVBfyKH-/exec',
     thumbnail: 'https://i.ytimg.com/vi/0YKjFoGxbec/maxresdefault.jpg',
     category: 'Party'
   },
@@ -203,7 +203,7 @@ export const games: Game[] = [
   id: 'game-25',
   title: 'Mafia',
   description: 'Game where an informed minority (the Mafia) against an uninformed majority (the Villagers).',
-  url: 'https://script.google.com/macros/s/AKfycbw08ZWhNkdIBO4iuIFqruvivkuFQztZo6lLBhPl4nxOeKS-G0FVkHDAasoNyPr3cBEP/exec',
+  url: 'https://script.google.com/macros/s/AKfycbxIJpXSuYYb5fem5sk7ihiqcfGBn3n_3AiqHzWyA5ivVxhI2-Zzk5kGmJM3ym5cLYmM/exec',
   category: 'Party'
   },
   {
