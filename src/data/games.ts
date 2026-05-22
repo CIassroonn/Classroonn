@@ -41,27 +41,27 @@ export const games: Game[] = [
   },
   {
     id: 'game-5',
-    title: 'Wrassling',
-    description: 'Fun to play with your friends.',
-    url: 'https://mc0825.github.io/g69/class-651',
-    thumbnail: 'https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/f1b3c828-7af9-4e13-9f5c-b2e88f335bdf/wrassling.png',
-    category: 'Multiplayer'
+    title: 'Slope',
+    description: 'This is just for the girls ig',
+    url: 'https://ubg365.github.io/slope/play.html',
+    thumbnail: 'https://i.ytimg.com/vi/jvjZ4rnERmM/maxresdefault.jpg',
+    category: 'Solo'
   },
   {
     id: 'game-6',
-    title: 'Soccer Random',
-    description: 'Fun to play with your friends.',
-    url: 'https://mc0825.github.io/g26/class-511',
-    thumbnail: 'https://play-lh.googleusercontent.com/G1PIlb6HWKSaDre0XpUcmKGps9T4iamsSlwrogB3EJzYv4bz0M2am4D17MtGzndaOOU=w240-h480-rw',
-    category: 'Fast Paced'
+    title: 'Epilepsy game',
+    description: 'This is just for the girls ig',
+    url: 'https://ubg365.github.io/death-run-3d/',
+    thumbnail: 'https://play-lh.googleusercontent.com/IeGUGo20PsUgjtAajcZWsz09ypyAIITXS8jDzzLAFdoR65Zy_3PVOP-ckq5b_A_vPzuV=w526-h296-rw',
+    category: 'Solo'
   },
   {
     id: 'game-7',
-    title: 'Getaway Shootout',
-    description: 'Fun to play with your friend.',
-    url: 'https://mc0825.github.io/g9/class-479/',
-    thumbnail: 'https://getawayshootoutonline.github.io/images/getaway-shootout.png',
-    category: 'Multiplayer'
+    title: '2048',
+    description: 'Girls.',
+    url: 'https://ubg365.github.io/2048/play.html',
+    thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/1280px-2048_logo.svg.png',
+    category: 'Solo'
   },
   {
     id: 'game-8',
@@ -213,5 +213,29 @@ export const games: Game[] = [
   url: 'https://script.google.com/macros/s/AKfycbybZkVPGyvHUOZbwrJSn5fRQIFcGpoIEhp0r-yq2GWRtE_1G7YzP4t8kPZRfp6tutUN/exec',
   thumbnail: 'https://play-lh.googleusercontent.com/VFwCWELna7i6okl299W0e1H-0moEvVfT9N2M9moaikhCTcEDjUg3hE1mkSlm3ZezfLPi4ppMcStIhjWUustesg=w526-h296-rw',
   category: 'Puzzle'
+  },
+  {
+id: 'game-27',
+title: 'Wrassling',
+description: 'Fun to play with your friends.',
+url: 'https://mc0825.github.io/g69/class-651',
+thumbnail: 'https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/f1b3c828-7af9-4e13-9f5c-b2e88f335bdf/wrassling.png',
+category: 'Multiplayer'
+  },
+  {
+    id: 'game-28',
+    title: 'Soccer Random',
+    description: 'Fun to play with your friends.',
+    url: 'https://mc0825.github.io/g26/class-511',
+    thumbnail: 'https://play-lh.googleusercontent.com/G1PIlb6HWKSaDre0XpUcmKGps9T4iamsSlwrogB3EJzYv4bz0M2am4D17MtGzndaOOU=w240-h480-rw',
+    category: 'Fast Paced'
+  },
+  {
+    id: 'game-29',
+    title: 'Getaway Shootout',
+    description: 'Fun to play with your friend.',
+    url: 'https://mc0825.github.io/g9/class-479/',
+    thumbnail: 'https://getawayshootoutonline.github.io/images/getaway-shootout.png',
+    category: 'Multiplayer'
   }
 ];
