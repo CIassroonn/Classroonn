@@ -204,6 +204,7 @@ export const games: Game[] = [
   title: 'Mafia',
   description: 'Game where an informed minority (the Mafia) against an uninformed majority (the Villagers).',
   url: 'https://script.google.com/macros/s/AKfycbxIJpXSuYYb5fem5sk7ihiqcfGBn3n_3AiqHzWyA5ivVxhI2-Zzk5kGmJM3ym5cLYmM/exec',
+  thumbnail: 'https://icebreakerideas.com/wp-content/uploads/2019/04/Mafia-Game-e1610793771411.jpg',
   category: 'Party'
   },
   {
@@ -215,12 +216,12 @@ export const games: Game[] = [
   category: 'Puzzle'
   },
   {
-id: 'game-27',
-title: 'Wrassling',
-description: 'Fun to play with your friends.',
-url: 'https://mc0825.github.io/g69/class-651',
-thumbnail: 'https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/f1b3c828-7af9-4e13-9f5c-b2e88f335bdf/wrassling.png',
-category: 'Multiplayer'
+  id: 'game-27',
+  title: 'Wrassling',
+  description: 'Fun to play with your friends.',
+  url: 'https://mc0825.github.io/g69/class-651',
+  thumbnail: 'https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/f1b3c828-7af9-4e13-9f5c-b2e88f335bdf/wrassling.png',
+  category: 'Multiplayer'
   },
   {
     id: 'game-28',
@@ -236,6 +237,14 @@ category: 'Multiplayer'
     description: 'Fun to play with your friend.',
     url: 'https://mc0825.github.io/g9/class-479/',
     thumbnail: 'https://getawayshootoutonline.github.io/images/getaway-shootout.png',
+    category: 'Multiplayer'
+  },
+  {
+    id: 'game-30',
+    title: 'Skribbl.io',
+    description: 'Fun to play with your friend.',
+    url: 'https://skribbl.io/',
+    thumbnail: 'https://static.wikitide.net/partycrasherswiki/1/14/IMPROVED-Skribblio.png',
     category: 'Multiplayer'
   }
 ];
