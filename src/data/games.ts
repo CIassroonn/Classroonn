@@ -20,7 +20,7 @@ export const games: Game[] = [
   {
     id: 'game-2',
     title: 'Gemini',
-    description: 'Fixed. Do not abuse AI, at a certain point max messages will be reached.',
+    description: 'Wait for a minute if you do not get a response.',
     url: 'https://extrastuffforwebsite.vercel.app/',
     thumbnail: 'https://sm.pcmag.com/pcmag_me/review/g/google-gem/google-gemini_yr4d.jpg',
     category: 'AI'
