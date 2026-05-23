@@ -262,5 +262,21 @@ export const games: Game[] = [
     url: 'https://files.gamezhero.com/game/905/1d1/9051d1173be765fb/data/index.html',
     thumbnail: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Subway_Surfers_logo.svg/1280px-Subway_Surfers_logo.svg.png',
     category: 'Solo'
+  },
+  {
+    id: 'game-33',
+    title: 'Uno',
+    description: 'Make sure to say Uno',
+    url: 'https://script.google.com/macros/s/AKfycbyOGsDEwmKxazJAHOb9fXbJFZM0LwmZJPkmKdLKa1qPY6OWfKIP9GcqbnkRf0JbUWmERQ/exec',
+    thumbnail: 'https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000034088/ac97854c142c719f8ae843106d43511db61822eb9bdb78e2c1a98ea0ae3b6c08',
+    category: 'Multiplayer'
+  },
+  {
+    id: 'game-34',
+    title: 'A tower defence game',
+    description: 'Survive.',
+    url: 'https://script.google.com/macros/s/AKfycbwJG1MUKpihFOusFDHFMOwCfpt3smGbPH70BjXlW-fjVaF0DjUXjIT929G4W3qiDGPF/exec',
+    thumbnail: 'https://img.freepik.com/premium-vector/tower-defense-3d-text-effect-editable-text-style-suitable-game-assets_412327-826.jpg',
+    category: 'Solo or Multiplayer'
   }
 ];
