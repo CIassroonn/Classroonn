@@ -22,8 +22,16 @@ export const games: Game[] = [
     title: 'Gemini',
     description: 'Fixed. Do not abuse AI, at a certain point max messages will be reached.',
     url: 'https://extrastuffforwebsite.vercel.app/',
-    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzXo17pL3S9PjcsR4V-ZPUr8nuQ622Lq0lhA&s',
+    thumbnail: 'https://sm.pcmag.com/pcmag_me/review/g/google-gem/google-gemini_yr4d.jpg',
     category: 'AI'
+  },
+  {
+    id: 'game-12',
+    title: 'Youtube',
+    description: 'Youtube unblocked, should allow you to paste videos into the URL thingy and watch it.',
+    url: 'https://granddia2.github.io/old/yt.html',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_yL7AtgrIozF4QESx27DN6CDTvAuxtEfPPw&s',
+    category: 'Solo'
   },
 
   // ── SOLO ──
@@ -80,7 +88,7 @@ export const games: Game[] = [
     title: 'Sandboxels',
     description: 'works now I think',
     url: 'https://mr-funkinguy.github.io/sandboxels/',
-    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBc_knTaEJfOEGjJPNFjIsNG5Mk95b6ua-vw&s',
+    thumbnail: 'https://s3.amazonaws.com/production2.sciencegamecenter.org/games/boxarts/000/000/417/medium/TitleArt_SandBoxels.jpeg?1707496550',
     category: 'Science'
   },
   {
@@ -100,19 +108,11 @@ export const games: Game[] = [
     category: 'Solo'
   },
   {
-    id: 'game-12',
-    title: 'Youtube',
-    description: 'Youtube unblocked, should allow you to paste videos into the URL thingy and watch it.',
-    url: 'https://granddia2.github.io/old/yt.html',
-    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_yL7AtgrIozF4QESx27DN6CDTvAuxtEfPPw&s',
-    category: 'Solo'
-  },
-  {
     id: 'game-13',
     title: 'Proxy',
     description: 'Allows you to scour the web unblocked',
     url: 'https://public.rossco.uk/',
-    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzXo17pL3S9PjcsR4V-ZPUr8nuQ622Lq0lhA&s',
+    thumbnail: 'https://cdn.prod.website-files.com/65e50602c9dc544319635b46/65e88c2b238ceb5fe132c177_proxy-logo.png',
     category: 'Solo'
   },
   {
@@ -210,7 +210,7 @@ export const games: Game[] = [
     title: 'Wavelength',
     description: 'Fun to play with your friends.',
     url: 'https://script.google.com/macros/s/AKfycbwq4d8v_dkz0sx64ODo_5y7FMAboBGGRLfoAk-Z_KwcOT1JGC7RO1EWHQh7b4xipEwn/exec',
-    thumbnail: 'https://icebreakerideas.com/wp-content/uploads/2019/04/Mafia-Game-e1610793771411.jpg',
+    thumbnail: 'https://www.mathsisfun.com/algebra/images/wavelength-amplitude.svg',
     category: 'Party'
   },
   {
@@ -218,7 +218,7 @@ export const games: Game[] = [
     title: 'Chess',
     description: 'Play chess with a friend online using a room code.',
     url: '/chess.html',
-    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzXo17pL3S9PjcsR4V-ZPUr8nuQ622Lq0lhA&s',
+    thumbnail: 'https://images.chesscomfiles.com/uploads/v1/blog/291978.333e4ddb.630x354o.6e5e89b5223a.png',
     category: 'Multiplayer'
   },
   {
