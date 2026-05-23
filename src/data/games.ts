@@ -250,9 +250,17 @@ export const games: Game[] = [
   {
     id: 'game-31',
     title: 'Proxy',
-    description: 'WIP MAY NOT WOKR',
-    url: 'https://script.google.com/macros/s/AKfycbwF9qXs36XU41Y-Rwqxj3ZYlS6mmR3rbxZ3Durx7-tKLyfeaQM_-t7tGMaUaCpxuQZV2A/exec',
+    description: 'Allows you to scour the web unblocked',
+    url: 'https://public.rossco.uk/',
     thumbnail: 'https://static.wikitide.net/partycrasherswiki/1/14/IMPROVED-Skribblio.png',
+    category: 'Solo'
+  },
+  {
+    id: 'game-32',
+    title: 'Subway Surfers',
+    description: 'Jump',
+    url: 'https://files.gamezhero.com/game/905/1d1/9051d1173be765fb/data/index.html',
+    thumbnail: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Subway_Surfers_logo.svg/1280px-Subway_Surfers_logo.svg.png',
     category: 'Solo'
   }
 ];
