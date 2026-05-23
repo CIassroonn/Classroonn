@@ -138,7 +138,46 @@ export const games: Game[] = [
     thumbnail: 'https://img.freepik.com/premium-vector/tower-defense-3d-text-effect-editable-text-style-suitable-game-assets_412327-826.jpg',
     category: 'Solo or Multiplayer'
   },
-
+  {
+    id: 'game-35',
+    title: 'Fnaf',
+    description: 'Survive.',
+    url: 'https://ubg365.github.io/fnaf/play.html',
+    thumbnail: 'https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/d/da/FNaF1.jpg/revision/latest/scale-to-width-down/1200?cb=20230410020858',
+    category: 'Solo'
+  },
+  {
+    id: 'game-36',
+    title: 'Fnaf 2',
+    description: 'Survive.',
+    url: 'https://ubg365.github.io/fnaf-2/',
+    thumbnail: 'https://m.media-amazon.com/images/I/81HBpJd2h8L.png',
+    category: 'Solo'
+  },
+  {
+    id: 'game-37',
+    title: 'Fnaf 3',
+    description: 'Survive.',
+    url: 'https://ubg365.github.io/fnaf-3/',
+    thumbnail: 'https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/f/fd/FNaF_3_Switch.jpg/revision/latest?cb=20210405111619',
+    category: 'Solo'
+  },
+  {
+    id: 'game-38',
+    title: 'Fnaf 4',
+    description: 'Survive.',
+    url: 'https://ubg365.github.io/fnaf-4/',
+    thumbnail: 'https://static.wikia.nocookie.net/fivenightsatfreddys/images/6/6c/Fnaf_4_desktop_icon.jpg/revision/latest?cb=20150724183458',
+    category: 'Solo'
+  },
+  {
+    id: 'game-39',
+    title: 'Fnaf 4',
+    description: 'Survive.',
+    url: 'https://ubg365.github.io/flash-tetris/',
+    thumbnail: 'https://www.datocms-assets.com/145957/1744284280-tetris-mobile.png?auto=format&fit=max&w=1200',
+    category: 'Solo'
+  },
   // ── MULTIPLAYER ──
   {
     id: 'game-17',
