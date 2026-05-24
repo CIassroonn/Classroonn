@@ -132,11 +132,11 @@ export const games: Game[] = [
   },
   {
     id: 'game-16',
-    title: 'Bloons TD6',
+    title: 'Bloons TD6 copy',
     description: 'A knockoff',
     url: 'https://script.google.com/macros/s/AKfycbxGkuDci2OlaMQBNYG1oQGdZSyJ86D3D39ZmTx2JFsqpxUObjTShnMUX8ApzlVzDRAY/exec',
     thumbnail: 'https://img.freepik.com/premium-vector/tower-defense-3d-text-effect-editable-text-style-suitable-game-assets_412327-826.jpg',
-    category: 'Solo or Multiplayer'
+    category: 'Solo or Multiplayer.'
   },
   {
     id: 'game-35',
@@ -197,7 +197,7 @@ export const games: Game[] = [
   {
     id: 'game-43',
     title: 'Crossy Road',
-    description: 'Fun to play> Requested by a gril.',
+    description: 'Fun to play. Requested by a gril.',
     url: 'https://azgames.io/game/crossy-road/',
     thumbnail: 'https://crossyroadonline.bitbucket.io/img/crossy-road.png',
     category: 'solo'   
@@ -205,7 +205,7 @@ export const games: Game[] = [
   {
     id: 'game-44',
     title: 'Crossy Road',
-    description: '2nd crossy road might not work',
+    description: '2nd one if first does not work. 1st one if 2nd one does not work',
     url: 'https://crossy-road-unblock.github.io/crossy-road/',
     thumbnail: 'https://crossyroadonline.bitbucket.io/img/crossy-road.png',
     category: 'solo'   
