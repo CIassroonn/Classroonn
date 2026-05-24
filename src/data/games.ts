@@ -185,6 +185,14 @@ export const games: Game[] = [
     url: 'https://googlesnakemods.com/v/current/',
     thumbnail: 'https://www5.minijuegosgratis.com/v3/games/thumbnails/246309_1.jpg',
     category: 'solo'
+  },
+  {
+    id: 'game-42',
+    title: 'Tomb of the Mask',
+    description: 'Fun to play',
+    url: 'https://doraedu52.github.io/g26/class-438',
+    thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Tomb_of_the_Mask_promo_art.png',
+    category: 'solo'    
   // ── MULTIPLAYER ──
   },
   {
@@ -329,6 +337,14 @@ export const games: Game[] = [
     description: 'Make sure to say Uno',
     url: 'https://script.google.com/macros/s/AKfycbyOGsDEwmKxazJAHOb9fXbJFZM0LwmZJPkmKdLKa1qPY6OWfKIP9GcqbnkRf0JbUWmERQ/exec',
     thumbnail: 'https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000034088/ac97854c142c719f8ae843106d43511db61822eb9bdb78e2c1a98ea0ae3b6c08',
+    category: 'Multiplayer'
+  },
+  {
+    id: 'game-41',
+    title: 'Make it meme',
+    description: 'unblocked now',
+    url: 'https://doraedu52.github.io/g22/class-368',
+    thumbnail: 'https://makeitmeme.com/header.webp',
     category: 'Multiplayer'
   },
 ];
