@@ -163,14 +163,6 @@ export const games: Game[] = [
     category: 'Solo'
   },
   {
-    id: 'game-38',
-    title: 'Fnaf 4',
-    description: 'Survive.',
-    url: 'https://ubg365.github.io/fnaf-4/',
-    thumbnail: 'https://static.wikia.nocookie.net/fivenightsatfreddys/images/6/6c/Fnaf_4_desktop_icon.jpg/revision/latest?cb=20150724183458',
-    category: 'Solo'
-  },
-  {
     id: 'game-39',
     title: 'Tetris',
     description: 'Fun.',
