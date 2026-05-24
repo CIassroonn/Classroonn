@@ -182,7 +182,7 @@ export const games: Game[] = [
     id: 'game-40',
     title: 'Snake',
     description: 'Fun to play',
-    url: 'https://www.google.com/search?q=snake&rlz=1C1RXQR_enUS1086US1086&oq=snake&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDM5NjNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8',
+    url: 'https://googlesnakemods.com/v/current/',
     thumbnail: 'https://www5.minijuegosgratis.com/v3/games/thumbnails/246309_1.jpg',
     category: 'solo'
   // ── MULTIPLAYER ──
