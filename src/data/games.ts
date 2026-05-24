@@ -134,7 +134,7 @@ export const games: Game[] = [
     id: 'game-16',
     title: 'A tower defence game',
     description: 'Survive.',
-    url: 'https://script.google.com/macros/s/AKfycbwJG1MUKpihFOusFDHFMOwCfpt3smGbPH70BjXlW-fjVaF0DjUXjIT929G4W3qiDGPF/exec',
+    url: 'https://script.google.com/macros/s/AKfycbzi_K-5mF57vSuqoRIpfIAstB-ZhR3NES1hF39ZxKlLpFk3K9LXYnD6r8HVXMnGGCCO/exec',
     thumbnail: 'https://img.freepik.com/premium-vector/tower-defense-3d-text-effect-editable-text-style-suitable-game-assets_412327-826.jpg',
     category: 'Solo or Multiplayer'
   },
