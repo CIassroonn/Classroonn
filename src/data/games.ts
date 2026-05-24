@@ -132,9 +132,9 @@ export const games: Game[] = [
   },
   {
     id: 'game-16',
-    title: 'A tower defence game',
-    description: 'Survive.',
-    url: 'https://script.google.com/macros/s/AKfycbzi_K-5mF57vSuqoRIpfIAstB-ZhR3NES1hF39ZxKlLpFk3K9LXYnD6r8HVXMnGGCCO/exec',
+    title: 'Bloons TD6',
+    description: 'A knockoff',
+    url: 'https://script.google.com/macros/s/AKfycbxGkuDci2OlaMQBNYG1oQGdZSyJ86D3D39ZmTx2JFsqpxUObjTShnMUX8ApzlVzDRAY/exec',
     thumbnail: 'https://img.freepik.com/premium-vector/tower-defense-3d-text-effect-editable-text-style-suitable-game-assets_412327-826.jpg',
     category: 'Solo or Multiplayer'
   },
