@@ -172,8 +172,8 @@ export const games: Game[] = [
   },
   {
     id: 'game-39',
-    title: 'Fnaf 4',
-    description: 'Survive.',
+    title: 'Tetris',
+    description: 'Fun.',
     url: 'https://ubg365.github.io/flash-tetris/',
     thumbnail: 'https://www.datocms-assets.com/145957/1744284280-tetris-mobile.png?auto=format&fit=max&w=1200',
     category: 'Solo'
