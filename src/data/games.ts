@@ -192,7 +192,23 @@ export const games: Game[] = [
     description: 'Fun to play',
     url: 'https://doraedu52.github.io/g26/class-438',
     thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Tomb_of_the_Mask_promo_art.png',
-    category: 'solo'    
+    category: 'solo' 
+  },
+  {
+    id: 'game-43',
+    title: 'Crossy Road',
+    description: 'Fun to play> Requested by a gril.',
+    url: 'https://azgames.io/game/crossy-road/',
+    thumbnail: 'https://crossyroadonline.bitbucket.io/img/crossy-road.png',
+    category: 'solo'   
+  },
+  {
+    id: 'game-44',
+    title: 'Crossy Road',
+    description: '2nd crossy road might not work',
+    url: 'https://crossy-road-unblock.github.io/crossy-road/',
+    thumbnail: 'https://crossyroadonline.bitbucket.io/img/crossy-road.png',
+    category: 'solo'   
   // ── MULTIPLAYER ──
   },
   {
