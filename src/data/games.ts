@@ -186,6 +186,7 @@ export const games: Game[] = [
     thumbnail: 'https://www5.minijuegosgratis.com/v3/games/thumbnails/246309_1.jpg',
     category: 'solo'
   // ── MULTIPLAYER ──
+  },
   {
     id: 'game-17',
     title: 'Animals Volleyball',
