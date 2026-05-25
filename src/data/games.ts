@@ -200,9 +200,17 @@ export const games: Game[] = [
     description: '2nd one if first does not work. 1st one if 2nd one does not work',
     url: 'https://crossy-road-unblock.github.io/crossy-road/',
     thumbnail: 'https://crossyroadonline.bitbucket.io/img/crossy-road.png',
-    category: 'solo'   
-  // ── MULTIPLAYER ──
+    category: 'solo'
   },
+  {
+    id: 'game-45',
+    title: 'Champion Island',
+    description: 'Google Doodle',
+    url: 'https://granddia2.github.io/championisland/',
+    thumbnail: 'https://www.gstatic.com/marketing-cms/c2/de/b1ea4f8d4314be89cbd66a6c94d7/4.gif',
+    category: 'solo'
+  },
+  // ── MULTIPLAYER ──
   {
     id: 'game-17',
     title: 'Animals Volleyball',
