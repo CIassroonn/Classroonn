@@ -37,7 +37,7 @@ export const games: Game[] = [
     id: 'game-13',
     title: 'Proxy',
     description: 'Allows you to scour the web unblocked',
-    url: 'https://band.echofx.com/',
+    url: 'https://public.rossco.uk/',
     thumbnail: 'https://cdn.prod.website-files.com/65e50602c9dc544319635b46/65e88c2b238ceb5fe132c177_proxy-logo.png',
     category: 'Solo'
   },
