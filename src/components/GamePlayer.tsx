@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Maximize2, RefreshCw } from 'lucide-react';
+import { ArrowLeft, Maximize2, RefreshCw, ZoomIn, ZoomOut } from 'lucide-react';
 import { games } from '../data/games';
 import { useState, useRef } from 'react';
 
@@ -7,6 +7,7 @@ export default function GamePlayer() {
   const { id } = useParams();
   const game = games.find(g => g.id === id);
   const [key, setKey] = useState(0);
+  const [scale, setScale] = useState(1);
   const containerRef = useRef<HTMLDivElement>(null);
 
   if (!game) {
@@ -19,7 +20,7 @@ export default function GamePlayer() {
   }
 
   const reloadGame = () => setKey(prev => prev + 1);
-
+  
   const toggleFullscreen = () => {
     if (containerRef.current) {
       if (document.fullscreenElement) {
@@ -31,6 +32,9 @@ export default function GamePlayer() {
       }
     }
   };
+
+  const zoomIn = () => setScale(s => Math.min(s + 0.1, 1.5));
+  const zoomOut = () => setScale(s => Math.max(s - 0.1, 0.5));
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
@@ -52,6 +56,23 @@ export default function GamePlayer() {
             <RefreshCw className="w-4 h-4" /> RELOAD
           </button>
           <button 
+            onClick={zoomOut}
+            className="brutalist-button flex items-center gap-2 text-xs"
+            disabled={scale <= 0.5}
+          >
+            <ZoomOut className="w-4 h-4" /> ZOOM OUT
+          </button>
+          <span className="font-mono text-sm font-bold w-12 text-center">
+            {Math.round(scale * 100)}%
+          </span>
+          <button 
+            onClick={zoomIn}
+            className="brutalist-button flex items-center gap-2 text-xs"
+            disabled={scale >= 1.5}
+          >
+            <ZoomIn className="w-4 h-4" /> ZOOM IN
+          </button>
+          <button 
             onClick={toggleFullscreen}
             className="brutalist-button flex items-center gap-2 text-xs"
           >
@@ -59,20 +80,21 @@ export default function GamePlayer() {
           </button>
         </div>
       </div>
-
-      <div 
-        ref={containerRef}
-        className="brutalist-card bg-black flex flex-col aspect-[16/9] w-full overflow-hidden relative"
-      >
-        <iframe
-          key={key}
-          src={game.url}
-          className="w-full h-full border-none"
-          allowFullScreen
-          title={game.title}
-        />
+      <div className="flex justify-center">
+        <div 
+          ref={containerRef}
+          className="brutalist-card bg-black flex flex-col aspect-[16/9] overflow-hidden relative transition-transform"
+          style={{ transform: `scale(${scale})`, transformOrigin: 'top center' }}
+        >
+          <iframe
+            key={key}
+            src={game.url}
+            className="w-full h-full border-none"
+            allowFullScreen
+            title={game.title}
+          />
+        </div>
       </div>
-
     </div>
   );
 }
