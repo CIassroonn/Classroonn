@@ -355,4 +355,11 @@ export const games: Game[] = [
     thumbnail: 'https://makeitmeme.com/header.webp',
     category: 'Multiplayer'
   },
+  {
+    id: 'game-38',
+    title: 'Gartic Phone Copy',
+    description: '',
+    url: 'https://tharaniidaran-t.github.io/gartic-phone.github/',
+    thumbnail: 'https://static.wikia.nocookie.net/gartic-phone/images/8/87/Garticphone.png/revision/latest/scale-to-width-down/250?cb=20230104102856',
+    category: 'Multiplayer'
 ];
