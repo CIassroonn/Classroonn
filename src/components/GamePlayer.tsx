@@ -2,11 +2,13 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Maximize2, RefreshCw } from 'lucide-react';
 import { games } from '../data/games';
 import { useState, useRef } from 'react';
+
 export default function GamePlayer() {
   const { id } = useParams();
   const game = games.find(g => g.id === id);
   const [key, setKey] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
+
   if (!game) {
     return (
       <div className="flex flex-col items-center justify-center min-h-[60vh]">
@@ -15,18 +17,21 @@ export default function GamePlayer() {
       </div>
     );
   }
+
   const reloadGame = () => setKey(prev => prev + 1);
+
   const toggleFullscreen = () => {
     if (containerRef.current) {
       if (document.fullscreenElement) {
         document.exitFullscreen();
       } else {
         containerRef.current.requestFullscreen().catch(err => {
-          console.error(Error attempting to enable full-screen mode: ${err.message});
+          console.error(`Error attempting to enable full-screen mode: ${err.message}`);
         });
       }
     }
   };
+
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6 gap-4">
